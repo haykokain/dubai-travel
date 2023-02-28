@@ -1,0 +1,24 @@
+.x {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.y {
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.block {
+    width: 30%;
+    height: 70vh;
+    background-image: url(../images/man.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 59%;
+    margin-top: -25%;
+}   
+
+.block:hover {
+    box-shadow: 6px 6px 25px rgb(20, 107, 220);
+}

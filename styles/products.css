@@ -1,0 +1,74 @@
+#text777{
+    text-align: center;
+}
+
+#btnn{
+    padding: 1%;
+    min-width: 200px;
+    width: 40%;
+    height: 13vh;
+    background: url(https://media.giphy.com/media/CKlafeh1NAxz35KTq4/giphy.gif); 
+    color:rgb(255, 255, 255);
+    font-size: large;
+    font-family: Times, Times New Roman, serif;
+    border-radius: 3%;
+    border: none;
+}
+
+.torro {
+    margin-left: 50px;
+    width: 44;
+    height: 333px;
+    margin-top: 35px ;
+}   
+
+.esimuje {
+    font-size: x-large;
+    font-family: Times, Times New Roman, serif;
+    color: aliceblue;
+}
+
+.spaside {
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#btnn:hover {
+    color:#ffffff;
+    box-shadow: 1px 2px 4px #0d4579,
+                2px 4px 8px #10518d,
+                4px 8px 16px #10518d;
+    transform: scale(1.1,1.1);
+}
+
+.block1 {
+    width: 33%;
+    height: 45vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dubai_Fountain_7.JPG/1280px-Dubai_Fountain_7.JPG);
+    background-size: cover;
+    background-position: center;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.block2 {
+    width: 33%;
+    height: 36vh;
+    background-image: url(https://www.visitdubai.com/-/media/images/leisure/homepage/homepage-fallback.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.popoxutyunner {
+    width: 50%;
+    height: 10vh;
+    margin-left: 38%;
+    margin-top: -38%;
+}
+
+.abel {
+    margin-left: 55%;
+    margin-top: 20%;
+}

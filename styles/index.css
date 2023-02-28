@@ -1,0 +1,25 @@
+  .hly {
+    margin-left: 6%;
+    margin-top: 9vh;
+}
+
+#text8 {
+    width: 37%;
+    margin-left: 50%;
+    margin-top: -68vh;
+    font-size: x-large;
+}
+
+#dubai {
+    margin-right: 10%;
+    margin-top: 10vh;
+}   
+
+.block {
+    width: 40%;
+    height: 45vh;
+    background-image: url(http://cdn.cnn.com/cnnnext/dam/assets/200310023921-dubai-buildings-skyline.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50%;
+}   

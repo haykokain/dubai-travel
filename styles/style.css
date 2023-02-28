@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Times, Times New Roman, serif;
+    list-style: none;
+    font-style: none;
+}
+
+body {
+    
+     background: url(https://phonoteka.org/uploads/posts/2022-01/1643191557_1-phonoteka-org-p-krasivii-temno-sinii-fon-1.jpg); 
+   /*background: url(https://phonoteka.org/uploads/posts/2022-01/thumbs/1642972175_50-phonoteka-org-p-temnii-sinii-fon-54.jpg);*/
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+   /* background: url(https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80); */
+   /* background: url(https://img.freepik.com/free-vector/night-cloudy-sky-with-stars-dark-starry-heaven_107791-16508.jpg?w=2000); */
+   /* background: url(https://wallpaper.dog/large/16990025.jpg); */
+   /* background: url(https://wallpaper.dog/large/16989932.jpg); */
+   /* background: url(https://wallpaper.dog/large/16990098.jpg); */
+   background: url(https://wallpaperaccess.com/full/1648313.jpg);
+   padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0px 1px 2px #0466c8,
+                0px 2px 4px #0466c8,
+                0px 4px 6px #0466c8,
+                0px 8px 8px #0466c8;
+}
+
+footer {
+    background: url(https://wallpaperaccess.com/full/1648313.jpg);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding-top: -4%;
+    padding-bottom: 2%;
+    align-items: center;
+    box-shadow: inset 3px -2px 4px 3.7px #0466c8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #7d8597;
+    transition: all .5s ease;
+}   
+
+footer a:first-child {
+    border-left: 1px solid #7d8597;
+}
+
+footer a:hover {
+    color: #0466c8;
+    font-size: 24px ;
+    box-shadow: 1px 2px 4px #ffffff,
+                2px 4px 8px #ffffff,
+                4px 8px 16px #ffffff;
+    background-color: #091b3e8f;
+}
+
+.Link {
+    color: rgb(235, 233, 233);
+    font-size: 1.4em;
+    transition: 0.6s;
+    font-weight: bold;
+}
+
+.Link:hover {
+    color: #0077B6;
+    font-size: 1.7em;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+#logo:hover {
+    width: 55px;
+    height: 55px;
+}
+
+.footer-list-item {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#footer-list {
+    text-align: center;
+    width: 80%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#footer-text {
+    color: white;
+    width: 80%;
+    font-size: 1.3em;
+    margin-left: 15%;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+.Link {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+nav {
+    margin-top: 11px;
+}
+
+#text7 {
+    text-align: center;
+    color: white;
+}
+
+#photo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#zidan {
+    margin-left: 275px;
+    margin-top: 20px;
+}
+
+#neymar {
+    margin-left: 20px;
+    margin-top: 300px;
+}
+
+#messi {
+    margin-right: 850px;
+    margin-top: 300px;
+}
+
+#text777 {
+    color: aliceblue;
+    margin-left: 500px;
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.in:hover {
+    color:rgb(223, 17, 17)
+}
+
+.g:hover {
+    color: #e8850c;
+}
+
+.skype:hover {
+    color: #18a4d8;
+}
+
+.scale-up-hor-center{-webkit-animation:scale-up-hor-center .4s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-hor-center .4s cubic-bezier(.39,.575,.565,1.000) both}
+@-webkit-keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+
+.tracking-in-expand-fwd{-webkit-animation:tracking-in-expand-fwd 1s cubic-bezier(.215,.61,.355,1.000) alternate backwards;animation:tracking-in-expand-fwd 1s cubic-bezier(.215,.61,.355,1.000) alternate backwards}
+@-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+
+#text-focus-in {-webkit-animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;}
+@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+#text-shadow-drop-br{-webkit-animation:text-shadow-drop-br .6s cubic-bezier(.47,0.000,.745,.715) alternate both;animation:text-shadow-drop-br .6s cubic-bezier(.47,0.000,.745,.715) alternate both}
+@-webkit-keyframes text-shadow-drop-br{0%{text-shadow:0 0 0 transparent}100%{text-shadow:6px 6px 14px rgb(0, 81, 255)}}@keyframes text-shadow-drop-br{0%{text-shadow:0 0 0 transparent}100%{text-shadow:6px 6px 14px rgb(0, 81, 255)}}
+
+#kenburns-top{-webkit-animation:kenburns-top 4s ease-out both;animation:kenburns-top 4s ease-out both}
+@-webkit-keyframes kenburns-top{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 16%;transform-origin:50% 16%}100%{-webkit-transform:scale(1.25) translateY(-15px);transform:scale(1.25) translateY(-15px);-webkit-transform-origin:top;transform-origin:top}}@keyframes kenburns-top{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 16%;transform-origin:50% 16%}100%{-webkit-transform:scale(1.25) translateY(-15px);transform:scale(1.25) translateY(-15px);-webkit-transform-origin:top;transform-origin:top}}
